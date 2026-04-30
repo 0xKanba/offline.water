@@ -1,5 +1,5 @@
 name = "water-service-api"
-main = "worker.js"
+main = "/worker/worker.js"
 compatibility_date = "2024-04-28"
 
 # Enable KV Namespace for storing sync records
