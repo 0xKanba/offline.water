@@ -1,0 +1,10 @@
+name = "water-service-api"
+main = "worker.js"
+compatibility_date = "2024-04-28"
+
+# Enable KV Namespace for storing sync records
+# You must create a KV namespace in your Cloudflare dashboard and replace the IDs below.
+# Command to create: npx wrangler kv:namespace create "WATER_DB"
+[[kv_namespaces]]
+binding = "WATER_DB"
+id = "REPLACE_WITH_YOUR_KV_ID"
