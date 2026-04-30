@@ -7,4 +7,4 @@ compatibility_date = "2024-04-28"
 # Command to create: npx wrangler kv:namespace create "WATER_DB"
 [[kv_namespaces]]
 binding = "WATER_DB"
-id = "REPLACE_WITH_YOUR_KV_ID"
+id = "54700b8373c94c858471b0f90d324c6e"
